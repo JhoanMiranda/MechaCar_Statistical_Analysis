@@ -5,11 +5,11 @@
 
   ##  1.Which variables/coefficients provided a non-random amount of variance to the mpg values in the             dataset?
     
-####•	(intercept)
+#### •	(intercept)
 
-####•	mechaCar_table$ground_clearance
+#### •	mechaCar_table$ground_clearance
 
-####•	mechaCar_table$vehivle_length
+#### •	mechaCar_table$vehivle_length
 
  ##   2.Is the slope of the linear model considered to be zero? Why or why not?
     
@@ -22,3 +22,4 @@
     
 ![Screenshot (131)](https://user-images.githubusercontent.com/114957364/218589349-7443c4fd-1bb2-44e0-a237-9b5a52e86554.png)
 
+## Summary Statistics on Suspension Coils
