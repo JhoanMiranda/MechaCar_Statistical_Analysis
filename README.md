@@ -21,4 +21,5 @@
   #### Yes showed by R-squared value of 0.7149. The adjusted R-squared of 0.6825 shows to be a good fit to the data but not perfect.
     
     
-    
+    ![Screenshot (131)](https://user-images.githubusercontent.com/114957364/218589349-7443c4fd-1bb2-44e0-a237-9b5a52e86554.png)
+
