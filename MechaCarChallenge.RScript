@@ -7,3 +7,17 @@
 
 ## linear regretion
 > summary(lm(mechaCar_table$mpg~ mechaCar_table$vehicle_weight +  mechaCar_table$vehicle_length +  mechaCar_table$spoiler_angle + mechaCar_table$ground_clearance + mechaCar_table$AWD)) # linear regretion
+
+## load
+coil_data<- read.csv(file="Suspension_coil.csv", check.names = F, stringsAsFactors = F)
+
+## create total_summary table 
+> total_summary <- coil_data %>% summarize(mean = mean(PSI), median = median(PSI), variance = var(PSI), sd = sd(PSI), .groups = 'keep')
+
+## create lot summary data frame 
+> lot_summary <- coil_data %>% group_by(Manufacturing_Lot) %>% summarize(mean = mean(PSI), median = median(PSI), variance = var(PSI), sd = sd(PSI), .groups = 'keep')
+
+
+##perform a t.test 
+
+> t.test(coil_data$PSI, mu=1500)
