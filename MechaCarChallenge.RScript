@@ -1,0 +1,9 @@
+## Add library
+
+> library("dplyr")
+
+## read csv 
+> mechaCar_table<-read.csv(file='mechaCar_mpg.csv', check.names=F,stringsAsFactors = F)
+
+## linear regretion
+> summary(lm(mechaCar_table$mpg~ mechaCar_table$vehicle_weight +  mechaCar_table$vehicle_length +  mechaCar_table$spoiler_angle + mechaCar_table$ground_clearance + mechaCar_table$AWD)) # linear regretion
