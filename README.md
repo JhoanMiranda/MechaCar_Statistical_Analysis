@@ -28,7 +28,30 @@ The collected data is the result of different lots of suspension coils, which wa
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
-no because exceeded the 100 psi across neither 3 lot pass the test individually
+
 
 ![Screenshot (133)](https://user-images.githubusercontent.com/114957364/218597759-fc266a01-6f0b-4d52-9cbc-2004791b48fa.png)
+
+
+![Screenshot (134)](https://user-images.githubusercontent.com/114957364/218598866-79ac8e1c-3706-4e19-990f-0b5f95bf4276.png)
+
+
+![Screenshot (135)](https://user-images.githubusercontent.com/114957364/218598876-e4559e03-7e9e-4a39-bedd-a7fcfee6ca56.png)
+
+
+no because exceeded the 100 psi across neither 3 lot pass the test individually
+## Study Design: MechaCar vs Competition
+Using the knowledge acquired we can create an analysis aiming to performance and efficiency
+What metric or metrics are you going to test? fuel consumption 
+
+What is the null hypothesis or alternative hypothesis? 
+null hypothesis in this case is that MechaCar have no difference with the competitors.
+alternate hypothesis in this case MechaCar could outperform in more than 1 of the metrics gathered. 
+
+What statistical test would you use to test the hypothesis? And why?
+
+ Could be solved comparing the means and for that we could use the t-test .
+
+What data is needed to run the statistical test?
+It depends on the purpose of the analysis, but we can collect data on internet, company’s research team etc.
 
