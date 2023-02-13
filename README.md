@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
 
 
-## Linear Regression to Predict MPG
+# Linear Regression to Predict MPG
 
   ##  1.Which variables/coefficients provided a non-random amount of variance to the mpg values in the             dataset?
     
@@ -22,4 +22,4 @@
     
 ![Screenshot (131)](https://user-images.githubusercontent.com/114957364/218589349-7443c4fd-1bb2-44e0-a237-9b5a52e86554.png)
 
-## Summary Statistics on Suspension Coils
+# Summary Statistics on Suspension Coils
