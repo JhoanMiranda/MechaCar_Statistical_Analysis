@@ -21,3 +21,13 @@ coil_data<- read.csv(file="Suspension_coil.csv", check.names = F, stringsAsFacto
 ##perform a t.test 
 
 > t.test(coil_data$PSI, mu=1500)
+
+#import ggplot2
+
+library(ggplot2)
+
+#Read the data
+MechaCar_table <- read.csv(file='MechaCar_mpg.csv',check.names = F,stringsAsFactors = F)
+
+# Create the plot object
+ggplot(data = MechaCar_table, aes(x = vehicle_length, y = mpg, color='red')) + geom_point() + ggtitle("MechaCar MPG vs Vehicle Length") + xlab("Vehicle Length (inches)") +   ylab("MPG")
