@@ -23,6 +23,7 @@
 ![Screenshot (131)](https://user-images.githubusercontent.com/114957364/218589349-7443c4fd-1bb2-44e0-a237-9b5a52e86554.png)
 
 # Summary Statistics on Suspension Coils
+![Screenshot (137)](https://user-images.githubusercontent.com/114957364/218605014-b9f4e3d7-f73c-4793-b1a2-bc1e12543887.png)
 
 The collected data is the result of different lots of suspension coils, which was tested to determine if the results are consistent across the lots 
 
